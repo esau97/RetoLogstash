@@ -16,7 +16,7 @@ public class TestController {
 	
 	@GetMapping(path="/myValue")
 	public ResponseEntity<String> myValue() {
-		Logger.info("LLamada al enddpoint inicial reto." +myValue);
+		Logger.info("Llamada al endpoint inicial reto." +myValue);
 		return new ResponseEntity<String>(HttpStatus.OK).ok(this.myValue);
 	}
 }
