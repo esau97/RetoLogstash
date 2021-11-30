@@ -9,10 +9,10 @@
 	</appender>
 	<appender name="FILE"
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>E:/Devs/logs/reto.log</file>
+		<file>/Volumes/SSDT5/Devs/logs/reto.log</file>
 		<rollingPolicy
 			class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<fileNamePattern>E:/Devs/logs/reto.%d{yyyy-MM-dd}.log
+			<fileNamePattern>/Volumes/SSDT5/Devs/logs/reto.%d{yyyy-MM-dd}.log
 			</fileNamePattern>
 			<maxHistory>7</maxHistory>
 		</rollingPolicy>
